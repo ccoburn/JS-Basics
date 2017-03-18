@@ -32,7 +32,11 @@ function getName() {
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
-
+function welcome() {
+var popUp = getName();
+  var phrase = alert("Welcome, " + popUp);
+  return phrase;
+}
 
 //////////////////PROBLEM 4////////////////////
 
