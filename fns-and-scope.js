@@ -49,14 +49,19 @@ var popUp = getName();
 
 
 //////////////////PROBLEM 5////////////////////
-
+// Arguments are outside of the function and parameters are included
 
 
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
   //Answer Here
-
+  // (0 == false);
+  // ('' == false);
+  //   (undefined == false);
+  // (null == false);
+  // (false == false);
+  // (NaN == false);
 
 
 //////////////////PROBLEM 6////////////////////
@@ -96,5 +101,6 @@ function outerFn() {
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
-
+var innerFn = outerFn();
 //Now invoke innerFn.
+innerFn();
