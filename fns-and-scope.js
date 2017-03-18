@@ -74,9 +74,9 @@ function myName() {
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
-
+var newMyName = myName;
 //Now alert the result of invoking newMyName
-
+alert(newMyName);
 
 
 //////////////////PROBLEM 7////////////////////
@@ -86,7 +86,13 @@ function myName() {
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
   //Code Here
+var anon = function() {
+  return "Chris";
+}
+function outerFn() {
+  return anon;
 
+}
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
